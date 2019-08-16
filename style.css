@@ -1,0 +1,81 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+#yb-wrapper {
+    border: 1px red solid;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#yb {
+    height: 400px;
+    width: 450px;
+    position: relative;
+    border: 1px red solid;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.eye-left {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    left: 75px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    top: 100px;
+    ;
+}
+
+.iris {
+    border: 1px black solid;
+    bottom: 0px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    background-color: black
+}
+
+.eye-right {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    right: 75px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    top: 100px;
+    ;
+}
+
+#ybyb {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+}
+
+#imyb {
+    top: 400px;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    border: 1px green solid;
+    align-items: center;
+    display: none;
+    justify-content: center;
+
+
+}
